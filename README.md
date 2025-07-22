@@ -9,4 +9,5 @@ A button allows you to stop/resume image updates for convenient analysis.
 
 by Danylo Bielov
 
+esp_lcd_ili9488 by atanisoft (my sincere thanks for the opportunity to use)
 ===========================================================================
