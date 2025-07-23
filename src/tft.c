@@ -42,7 +42,7 @@ void tft_init(esp_lcd_panel_handle_t *panel)
     size_t buffer_size = 0;
     ret = esp_lcd_new_panel_ili9488(io_handle, &panel_cfg, buffer_size, panel);
     if (ret != ESP_OK) {
-        ESP_LOGE("TFT", "esp_lcd_new_panel_ili9488 failed");
+        ESP_LOGE("TFT", "ili9488 failed");
         return;
     }
 
